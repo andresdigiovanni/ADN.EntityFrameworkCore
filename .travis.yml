@@ -1,0 +1,8 @@
+language: csharp
+solution: ADN.EntityFrameworkCore.sln
+dotnet: 2.0.0
+script:
+  - dotnet restore
+  - dotnet build ./src/ADN.EntityFrameworkCore/
+  - dotnet build ./tests/ADN.EntityFrameworkCore.Tests/
+  - dotnet test ./tests/ADN.EntityFrameworkCore.Tests/

@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Version>1.0.0</Version>
+    <Title>ADN.EntityFrameworkCore</Title>
+    <Authors>Andrés Di Giovanni</Authors>
+    <Company>ADN</Company>
+    <Product>ADN.EntityFrameworkCore</Product>
+    <Description>ADN.EntityFrameworkCore is a cross-platform open-source library which provides entity framework core utilities to .NET developers</Description>
+    <Copyright>Copyright © Andrés Di Giovanni 2019</Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://github.com/andresdigiovanni/ADN.EntityFrameworkCore/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/andresdigiovanni/ADN.EntityFrameworkCore</PackageProjectUrl>
+    <PackageTags>EntityFrameworkCore</PackageTags>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl> 
+    <RepositoryUrl>https://github.com/andresdigiovanni/ADN.EntityFrameworkCore</RepositoryUrl> 
+    <PackageIconUrl>https://raw.githubusercontent.com/andresdigiovanni/ADN.EntityFrameworkCore/master/icon.png</PackageIconUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>ADN.EntityFrameworkCore.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.3" />
+    <PackageReference Include="Vsxmd" Version="1.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
