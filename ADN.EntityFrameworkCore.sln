@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADN.EntityFrameworkCore", "src\ADN.EntityFrameworkCore\ADN.EntityFrameworkCore.csproj", "{F26E3CDC-C557-4190-BC68-DDF4A9C9BE75}"
 EndProject
@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC9B33EF-7D4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{68992793-3002-45E1-99D6-FBADE78DE47B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADN.EntityFrameworkCore.Tests", "tests\ADN.EntityFrameworkCore.Tests\ADN.EntityFrameworkCore.Tests.csproj", "{AB247BA9-51BB-491A-96EF-4268E876B23B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADN.EntityFrameworkCore.Tests", "tests\ADN.EntityFrameworkCore.Tests\ADN.EntityFrameworkCore.Tests.csproj", "{AB247BA9-51BB-491A-96EF-4268E876B23B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
