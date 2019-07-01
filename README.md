@@ -5,6 +5,8 @@ ADN.EntityFrameworkCore is a cross-platform open-source library which provides e
 [![Build Status](https://travis-ci.org/andresdigiovanni/ADN.EntityFrameworkCore.svg?branch=master)](https://travis-ci.org/andresdigiovanni/ADN.EntityFrameworkCore)
 [![NuGet](https://img.shields.io/nuget/v/ADN.EntityFrameworkCore.svg)](https://www.nuget.org/packages/ADN.EntityFrameworkCore/)
 [![BCH compliance](https://bettercodehub.com/edge/badge/andresdigiovanni/ADN.EntityFrameworkCore?branch=master)](https://bettercodehub.com/)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=andresdigiovanni_ADN.EntityFrameworkCore&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=andresdigiovanni_ADN.EntityFrameworkCore)
+[![Quality](https://sonarcloud.io/api/project_badges/measure?project=andresdigiovanni_ADN.EntityFrameworkCore&metric=alert_status)](https://sonarcloud.io/dashboard?id=andresdigiovanni_ADN.EntityFrameworkCore)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Installation
