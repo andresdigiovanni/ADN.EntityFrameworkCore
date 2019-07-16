@@ -1,38 +1,32 @@
-<a name='assembly'></a>
 # ADN.EntityFrameworkCore
 
-## Contents
+# Content
 
-- [EntityFrameworkCoreUtils](#T-ADN-EntityFrameworkCore-EntityFrameworkCoreUtils 'ADN.EntityFrameworkCore.EntityFrameworkCoreUtils')
-  - [InsertOrUpdate\`\`1(context,model)](#M-ADN-EntityFrameworkCore-EntityFrameworkCoreUtils-InsertOrUpdate``1-Microsoft-EntityFrameworkCore-DbContext,``0- 'ADN.EntityFrameworkCore.EntityFrameworkCoreUtils.InsertOrUpdate``1(Microsoft.EntityFrameworkCore.DbContext,``0)')
+- [EntityFrameworkCoreUtils](#T:ADN.EntityFrameworkCore.EntityFrameworkCoreUtils)
 
-<a name='T-ADN-EntityFrameworkCore-EntityFrameworkCoreUtils'></a>
-## EntityFrameworkCoreUtils `type`
+  - [InsertOrUpdate`<T>(context, model)](#EntityFrameworkCoreUtils.InsertOrUpdate`<T>(context,model))
 
-##### Namespace
+<a name='T:ADN.EntityFrameworkCore.EntityFrameworkCoreUtils'></a>
 
-ADN.EntityFrameworkCore
 
-##### Summary
+## EntityFrameworkCoreUtils
 
 A static class of methods for EntityFramework Core.
 
-<a name='M-ADN-EntityFrameworkCore-EntityFrameworkCoreUtils-InsertOrUpdate``1-Microsoft-EntityFrameworkCore-DbContext,``0-'></a>
-### InsertOrUpdate\`\`1(context,model) `method`
+<a name='EntityFrameworkCoreUtils.InsertOrUpdate`<T>(context,model)'></a>
 
-##### Summary
+
+### InsertOrUpdate`<T>(context, model)
 
 Insert or update an element in a database.
 
-##### Parameters
 
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| context | [Microsoft.EntityFrameworkCore.DbContext](#T-Microsoft-EntityFrameworkCore-DbContext 'Microsoft.EntityFrameworkCore.DbContext') | A DbContext instance. |
-| model | [\`\`0](#T-``0 '``0') | Element to insert or update in the database. |
-
-##### Generic Types
+#### Parameters
 
 | Name | Description |
 | ---- | ----------- |
-| T | The type of the element in the database. |
+| context | *Microsoft.EntityFrameworkCore.DbContext*<br>A DbContext instance. |
+
+#### Parameters
+
+| model | *``0*<br>Element to insert or update in the database. |
