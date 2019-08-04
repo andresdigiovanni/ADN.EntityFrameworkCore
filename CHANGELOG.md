@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.1.0] - 2019-08-04
+### Changed
+- Net core version 2.0
+
 ## [1.0.0] - 2019-03-31
 ### Added
 - Classes: EntityFrameworkCoreUtils.
