@@ -9,6 +9,27 @@ ADN.EntityFrameworkCore is a cross-platform open-source library which provides e
 [![Quality](https://sonarcloud.io/api/project_badges/measure?project=andresdigiovanni_ADN.EntityFrameworkCore&metric=alert_status)](https://sonarcloud.io/dashboard?id=andresdigiovanni_ADN.EntityFrameworkCore)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Basic usage
+
+Insert or update an element in a database.
+
+```csharp
+IPersonRepository sut = GetInMemoryPersonRepository();
+Person person = new Person()
+{
+    PersonId = 1,
+    FirstName = "Luke",
+    Surname = "Skywalker",
+};
+sut.Add(person);
+
+Person savedPerson = sut.GetAll().FirstOrDefault();
+
+Assert.Equal(1, sut.GetAll().Count);
+Assert.Equal("Luke", savedPerson.FirstName);
+Assert.Equal("Skywalker", savedPerson.Surname);
+```
+
 ## Installation
 
 ADN.EntityFrameworkCore runs on Windows, Linux, and macOS.
